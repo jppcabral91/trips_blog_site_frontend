@@ -1,0 +1,241 @@
+{
+  "id": 1,
+  "title": "Viagem a Penha Garcia",
+  "startDate": "2023-07-10",
+  "endDate": "2023-07-11",
+  "smallDescription": "Uma viagem de carro para visitar Penha Garcia.",
+  "description": "Visitei vários locais interessantes e conheci pessoas legais.",
+  "localsVisited": [
+    {
+      "name": "Coimbra",
+      "coordinates": [-8.4291, 40.2056],
+      "district": "Coimbra",
+      "concelho": "Coimbra",
+      "liked": true,
+      "photos": ["https://example.com/photo1.jpg", "https://example.com/photo2.jpg"],
+      "rating": 5,
+      "notes": "Great city with beautiful architecture."
+    },
+    {
+      "name": "Vila Velha de Rodão",
+      "coordinates": [-7.6661, 39.6562],
+      "district": "Castelo Branco",
+      "concelho": "Vila Velha de Rodão",
+      "liked": true,
+      "photos": ["https://example.com/photo3.jpg"],
+      "rating": 4,
+      "notes": "Nice place by the river."
+    },
+    {
+      "name": "Zebreira",
+      "coordinates": [-7.2137, 39.6241],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": true,
+      "photos": ["https://example.com/photo4.jpg"],
+      "rating": 4,
+      "notes": "Small town with a cozy atmosphere."
+    },
+    {
+      "name": "Segura",
+      "coordinates": [-7.0111, 39.6187],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": true,
+      "photos": ["https://example.com/photo5.jpg"],
+      "rating": 5,
+      "notes": "Beautiful bridge crossing to Spain."
+    },
+    {
+      "name": "Termas de Monfortinho",
+      "coordinates": [-7.0711, 40.0418],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": false,
+      "photos": ["https://example.com/photo6.jpg"],
+      "rating": 2,
+      "notes": "Not much to see or do, quite old."
+    },
+    {
+      "name": "Monfortinho",
+      "coordinates": [-7.0369, 39.9456],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": true,
+      "photos": ["https://example.com/photo7.jpg"],
+      "rating": 4,
+      "notes": "Met Pedro Ramos, a nice guy and amateur writer."
+    },
+    {
+      "name": "Penha Garcia",
+      "coordinates": [-7.0444, 40.0484],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": true,
+      "photos": ["https://example.com/photo8.jpg"],
+      "rating": 5,
+      "notes": "Fantastic views and historical sites."
+    },
+    {
+      "name": "Monsanto",
+      "coordinates": [-7.1182, 40.0383],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": true,
+      "photos": ["https://example.com/photo9.jpg"],
+      "rating": 5,
+      "notes": "Historic village with amazing architecture."
+    },
+    {
+      "name": "Proença-a-Velha",
+      "coordinates": [-7.2121, 39.9456],
+      "district": "Castelo Branco",
+      "concelho": "Idanha-a-Nova",
+      "liked": true,
+      "photos": ["https://example.com/photo10.jpg"],
+      "rating": 4,
+      "notes": "Quiet village with friendly locals."
+    }
+  ],
+  "cost": 160,
+  "kilometers": 300,
+  "days": [
+    {
+      "date": "2023-07-10",
+      "weather": "Sunny, 30°C",
+      "description": "Saí de Coimbra e parei em vários locais no caminho até Penha Garcia.",
+      "activities": [
+        {
+          "name": "Piquenique em Vila Velha de Rodão",
+          "description": "Almocei perto do rio Tejo.",
+          "liked": true,
+          "willComeback": true,
+          "time": "12:00",
+          "photos": ["https://example.com/activity1.jpg"],
+          "rating": 4,
+          "category": "Outdoor"
+        },
+        {
+          "name": "Café 'O Camionista' em Zebreira",
+          "description": "Tomei uma cerveja e vi uma grande foto de um líder político na varanda.",
+          "liked": true,
+          "willComeback": true,
+          "time": "15:00",
+          "photos": ["https://example.com/activity2.jpg"],
+          "rating": 3,
+          "category": "Dining"
+        },
+        {
+          "name": "Passeio na ponte em Segura",
+          "description": "Caminhei até a Espanha e voltei para Portugal.",
+          "liked": true,
+          "willComeback": true,
+          "time": "17:00",
+          "photos": ["https://example.com/activity3.jpg"],
+          "rating": 5,
+          "category": "Sightseeing"
+        },
+        {
+          "name": "Visita às Termas de Monfortinho",
+          "description": "Não gostei muito porque não há muito para ver ou fazer, e o lugar é muito antigo.",
+          "liked": false,
+          "willComeback": false,
+          "time": "18:00",
+          "photos": ["https://example.com/activity4.jpg"],
+          "rating": 2,
+          "category": "Sightseeing"
+        },
+        {
+          "name": "Visita a Monfortinho",
+          "description": "Gostei de Monfortinho, mesmo não havendo muito para fazer.",
+          "liked": true,
+          "willComeback": true,
+          "time": "19:00",
+          "photos": ["https://example.com/activity5.jpg"],
+          "rating": 4,
+          "category": "Sightseeing",
+          "extra": "Conheci Pedro Ramos, um cara legal e escritor amador."
+        }
+      ],
+      "meals": [
+        {
+          "type": "cerveja",
+          "location": "Café 'Associação de Monfortinho'",
+          "description": "Tomei uma cerveja e conheci Pedro Ramos.",
+          "cost": 2,
+          "liked": true,
+          "time": "16:00",
+          "photos": ["https://example.com/meal1.jpg"],
+          "rating": 4
+        },
+        {
+          "type": "jantar",
+          "location": "Café Carrasco",
+          "description": "Jantei e tomei 4 cervejas.",
+          "cost": 20,
+          "liked": true,
+          "time": "20:00",
+          "photos": ["https://example.com/meal2.jpg"],
+          "rating": 5
+        }
+      ],
+      "sleep": {
+        "location": "Casal da Serra",
+        "description": "Muito bom, custou 80€ por noite.",
+        "cost": 80,
+        "liked": true,
+        "photos": ["https://example.com/sleep1.jpg"],
+        "rating": 5
+      },
+      "transportation": {
+        "method": "Car",
+        "cost": 30,
+        "notes": "Rented from local agency."
+      }
+    },
+    {
+      "date": "2023-07-11",
+      "weather": "Partly cloudy, 28°C",
+      "description": "Acordei em Penha Garcia e visitei Monsanto e Proença-a-Velha.",
+      "activities": [
+        {
+          "name": "Visita a Monsanto",
+          "description": "Explorei a histórica vila de Monsanto.",
+          "liked": true,
+          "willComeback": true,
+          "time": "10:00",
+          "photos": ["https://example.com/activity6.jpg"],
+          "rating": 5,
+          "category": "Historical"
+        },
+        {
+          "name": "Visita a Proença-a-Velha",
+          "description": "Passeio pela aldeia de Proença-a-Velha.",
+          "liked": true,
+          "willComeback": true,
+          "time": "14:00",
+          "photos": ["https://example.com/activity7.jpg"],
+          "rating": 4,
+          "category": "Sightseeing"
+        }
+      ],
+      "meals": [
+        {
+          "type": "almoço",
+          "location": "Restaurante em Monsanto",
+          "description": "Almocei em um restaurante local.",
+          "cost": 15,
+          "liked": true,
+          "time": "12:30",
+          "photos": ["https://example.com/meal3.jpg"],
+          "rating": 4
+        }
+      ],
+      "transportation": {
+        "method": "Car",
+        "cost": 20,
+        "notes": "Rented from local agency."
+      }
+    }
+  ]
+}

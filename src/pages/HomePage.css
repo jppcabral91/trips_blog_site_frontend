@@ -1,0 +1,19 @@
+/* src/pages/HomePage.css */
+.homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage-header {
+    margin-bottom: 40px;
+  }
+  
+  .homepage-carousel .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .homepage-buttons {
+    margin-top: 20px;
+  }
+  
