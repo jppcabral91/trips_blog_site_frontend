@@ -16,18 +16,17 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "cross-env GH_PAGES_CACHE=./.gh-pages-cache gh-pages -d build"
+  },
+  "homepage": "https://jppcabral91.github.io/trips_blog_site_frontend",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "cross-env": "^7.0.3"
   },
   "browserslist": {
     "production": [
@@ -40,11 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.1.1",
-    "cross-env": "^7.0.3"
-  },
-"homepage": "https://jppcabral91.github.io/trips_blog_site_frontend"
+  }
 }
